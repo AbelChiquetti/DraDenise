@@ -35,7 +35,7 @@ p {
   font-weight: 400;
 }
 h1 {
-  font-size: 3.8em;
+  font-size: 2.8em;
   line-height: 1.1em;
   color: #675444;
   font-family: "Quicksand", sans-serif;
@@ -289,13 +289,12 @@ ul.social-list li a i {
 /* =========================== Main Slider ============================ */
 #slider {
   width: 100% !important;
-  padding-top: 140px;
 }
 .header-wrapper {
   width: 100% !important;
 }
 .header-wrapper .header-text {
-  margin-top: 15%;
+  margin-top: 14%;
   white-space: normal;
 }
 .ls-outline .ls-nav-prev,
@@ -1611,15 +1610,12 @@ ul.custom li:before {
 /* Small devices (landscape phones, 544px) */
 @media (max-width: 544px) {
   /* slider */
-  #slider {
-    padding-top: 58px !important;
-  }
   .header-wrapper .header-text {
     margin-top: 20%;
     width: 50%;
   }
-  .header-text h1 {
-    margin-bottom: 0px !important;
+  .header-text {
+    display: none;
   }
   .header-text:before {
     display: none !important;
@@ -1922,10 +1918,6 @@ ul.custom li:before {
   .navbar-collapse.show {
     display: block;
     padding-bottom: 40px;
-  }
-  /* slider */
-  #slider {
-    padding-top: 100px;
   }
   .header-text {
     min-width: 70% !important;
